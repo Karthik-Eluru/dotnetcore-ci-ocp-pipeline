@@ -7,7 +7,7 @@ spec:
   - default: pipelines-dotnetcore-api
     name: APP_NAME
     type: string
-  - default: https://github.com/SaifRehman/dotnetcore-ci-ocp-pipeline.git
+  - default: https://github.com/Karthik-Eluru/dotnetcore-ci-ocp-pipeline
     name: GIT_REPO
     type: string
   - default: master
@@ -19,7 +19,7 @@ spec:
   - default: .
     name: PATH_CONTEXT
     type: string
-  - default: 'https://github.com/SaifRehman/dotnetcore-gitops.git'
+  - default: 'https://github.com/Karthik-Eluru/dotnetcore-gitops'
     name: CONFIG_GIT_REPO
     type: string
   - default: develop
